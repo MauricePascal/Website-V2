@@ -8,7 +8,6 @@ Font-Icon Import: <span class="material-icons-outlined">home</span></li>
 <meta charset="utf-8">
 <html>
     <head>
-
         <!--Titel-->
         <title><code.spirit></title>
         <!--Metadata für Embeds etc.-->
@@ -25,53 +24,49 @@ Font-Icon Import: <span class="material-icons-outlined">home</span></li>
         <script src="https://kit.fontawesome.com/0fb7a47199.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
     </head>
     <body>
         <main>
             <!--Navbar/Header-->
-            <div id="header">
-                <ul id="navbar">
+            <div class="header">
+                <ul class="navbar">
                     <!--Left Side-->
-                    <li id="placeholder"><span class="material-icons-outlined">home</span><span> Home</span></li>
-                    <li id="placeholder"><span class="material-icons-outlined">code</span> Projects</li>
-                    <li id="placeholder"><span class="material-icons-outlined">gamepad</span> Apps</li>
+                    <li class="navitem current"><a href="index.html"><span class="material-icons-outlined" style="vertical-align: -5px;">home</span><span> Home</span></a></li>
+                    <li class="navitem"><a href="proj.html"><span class="material-icons-outlined" style="vertical-align: -5px;">code</span> Projects</a></li>
+                    <li class="navitem"><a href="apps.html"><span class="material-icons-outlined" style="vertical-align: -5px;">description</span> Skills</a></li>
                     <!--Right side-->
-                    <li id="placeholder"><span class="material-icons-outlined">more_horiz</span> Other</li>
-                      <!--Hobbys, Socials, GitHub-->
-                    <li id="placeholder"><span class="material-icons-outlined">language</span> Language</li> <!--Dropdown für Sprachen?-->
+                    <li class="navitem dropdown"><span class="material-icons-outlined" style="vertical-align: -5px;">more_horiz</span> Other</li>
+                    <!--Hobbys, Socials, GitHub-->
+                    <li class="navitem"><span class="material-icons-outlined" style="vertical-align: -5px;">language</span> Language</li> <!--Dropdown für Sprachen?-->
                 </ul>
             </div>
             
             <!--Main Text + Img/GIF-->
 
-            <div id="wrapper">
+            <div class="wrapper">
                 <!--Header-->
-                <h1 id="name">Louis "Spirit"</h1>
+                <h1 class="name">Louis "Spirit"</h1>
                 <!--Main Text-->
-                <div id="text-main">
+                <div class="text-main">
                     <p>Hi, I'm Louis, a 15 year old developer from Germany. <br>I mainly code webpages and sites for fun.</p>
                     <p>I have experience in <span style="color: #FF6C00">HTML <i class="fab fa-html5"></i></span> and <span style="color: #0064FF">CSS <i class="fab fa-css3-alt"></i></span>, and I'm currently learning how to use <span style="color: #FFCD00;">Phython <i class="fab fa-python"></i></span> and <span style="color: #FFCD00;">JavaScript <i class="fab fa-js-square"></i></span>.
+                    <hr>
                 </div>
-                <div id="avatar">
-                    <img src="assets/img/Avatar.png" alt="Whoops! There should be an image.">
-                </div>
-
+                
                 <!--About, Contact-->
             
-                <div id="footer">
-                    <ul id="contact">
-                        <li id="placeholder"><span class="material-icons-outlined">email</span> Mail</li>
-                        <li id="placeholder"><i class="fab fa-github-square"></i> GitHub Profile</li>
-                        <li id="placeholder"><i class="fab fa-discord"></i> Spirit#6996</li>
+                <div class="footer">
+                    <ul class="contact">
+                        <li class="contact button"><a href="mailto:codedotspirit@gmail.com" target="_blank"><span class="material-icons-outlined" style="vertical-align: -5px;">email</span> Mail</a></li>
+                        <li class="contact button"><a href="https://github.com/spiritletsplays" target="_blank"><i class="fab fa-github-square fa-fw"></i><span> GitHub Profile</span></a></li>
+                        <li class="contact button"><a href="https://discord.com/invite/PVbbFss" target="_blank"><i class="fab fa-discord fa-fw"></i><span> Spirit#6996</span></a></li>
                     </ul>
-                    
                 </div>
             </div>
-
-            
+            <div id="pfp">
+                <img src="assets/img/Avatar.png" alt="Whoops! There should be an image.">
+            </div>
         </main>
     </body>
 
 </html>
-    
