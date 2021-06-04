@@ -261,10 +261,28 @@ a:visited {color:rgb(255, 255, 255)}
     #avatar {display: none;}
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 645px) {
+    
+    .comtent {
+        display: inline;
+    }
+    
     #wrapper {
         width: 100%;
+        margin-top: 1 rem;
         margin: 0 auto;
+    }
+    #pfp {display: none;}
+    #avatar {display: none;}
+}
+
+@media screen and (max-width: 469px) {
+    
+    #wrapper {
+        width: 120%;
+        margin-top: 1 rem;
+        margin: 0;
+        top: -100px;
     }
     #pfp {display: none;}
     #avatar {display: none;}
