@@ -122,7 +122,7 @@ a:visited {color:rgb(255, 255, 255)}
     margin-top: 15rem;
     width: 50%;
     height: auto;
-    font-size: 23px;
+    font-size: 20px;
     animation: slide_up;
     animation-duration: 2s;
 }
@@ -134,6 +134,16 @@ a:visited {color:rgb(255, 255, 255)}
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     overflow: hidden;
+}
+
+.snakename {
+    display: inline-block;
+    background: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 60, 255));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    overflow: hidden;
+    font-family: 'Press Start 2P';
 }
 
 .contact {
@@ -152,6 +162,21 @@ a:visited {color:rgb(255, 255, 255)}
     cursor: pointer;
 }
 
+.skilluls {
+    display: flex;
+    font-size: 16px;
+}
+
+.skillsheader {
+    display: inline-block;
+    background: linear-gradient(to right, rgb(0, 110, 255), rgb(0, 255, 157));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    overflow: hidden;
+}
+
+/*IDs*/
 
 #pfp {
     z-index: 0;
@@ -164,6 +189,19 @@ a:visited {color:rgb(255, 255, 255)}
     overflow: hidden;
     opacity: 100%;
     animation: slide_left;
+    animation-duration: 2s;
+}
+#avatar {
+    z-index: 0;
+    position: absolute;
+    top: 17%;
+    left: 60%;
+    height: 80%;
+    margin: 0 0 0 auto;
+    width: 50%;
+    overflow: hidden;
+    opacity: 100%;
+    animation: fade_in;
     animation-duration: 2s;
 }
 
@@ -214,10 +252,20 @@ a:visited {color:rgb(255, 255, 255)}
 
 /*Media*/
 
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 1200px) {
     #wrapper {
         width: 80%;
         margin: 0 auto;
     }
     #pfp {display: none;}
+    #avatar {display: none;}
+}
+
+@media screen and (max-width: 980px) {
+    #wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #pfp {display: none;}
+    #avatar {display: none;}
 }
