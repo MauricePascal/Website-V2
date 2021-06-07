@@ -111,6 +111,47 @@ a:visited {color:rgb(255, 255, 255)}
     color: var(--nav-clr)
 }
 
+/*Dropdownul*/
+
+.dropdownul {
+    position: absolute;
+    display: inline-block;
+    color: white;
+    background-color: #111;
+    border-radius: 10px;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem; 
+    padding-left: 1rem;
+    top: 5%;
+    left: 92%;
+    animation: fade_in;
+    animation-duration: 2s;
+}
+
+.dropdownul2 {
+    position: absolute;
+    display: inline-block;
+    color: white;
+    background-color: #111;
+    border-radius: 10px;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem; 
+    padding-left: 1rem;
+    top: 5%;
+    left: 85%;
+    animation: fade_in;
+    animation-duration: 2s;
+}
+
+.dropdownul li {
+    margin: 1em;
+}
+
+.dropdownul2 li {
+    margin: 1em;
+}
 
 /*Wrapper*/
 
