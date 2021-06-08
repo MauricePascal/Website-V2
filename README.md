@@ -1,3 +1,4 @@
 # Website-V2
-Beta Branch
-Version 2.0 of my own Website. Trying to go for a more professional style and cleaner code this time.
+## Beta Branch
+
+This Branch exists for me to add some things before they are supported. 
