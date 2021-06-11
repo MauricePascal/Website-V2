@@ -89,28 +89,6 @@ a:visited {color:rgb(255, 255, 255)}
     color: var(--nav-clr)
 } 
 
-.navbar ul {
-    display: none;
-    position: absolute;
-}
-
-.navbar li:hover > ul {
-    text-align: center;
-    cursor: pointer;
-    animation: fade_in;
-    animation-duration: 1s;
-    padding: 1px;
-    display: block;
-    color:#fff;
-    padding-left:2rem;
-}
-
-.navitem.dropdown:hover {
-    cursor: pointer;
-    transition: all 300ms ease-in;
-    color: var(--nav-clr)
-}
-
 /*Buttons*/
 
 button {
@@ -157,7 +135,7 @@ button {
     padding-top: 1rem; 
     padding-left: 1rem;
     top: 5%;
-    left: 85%;
+    left: 83%;
     animation: fade_in;
     animation-duration: 2s;
 }
