@@ -86,7 +86,11 @@ a:visited {color:rgb(255, 255, 255)}
 }
 
 .navitem.current a {
-    color: var(--nav-clr)
+    background: linear-gradient(to right, rgb(144, 85, 255),rgb(0, 119, 255));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    overflow: hidden;
 } 
 
 /*Buttons*/
