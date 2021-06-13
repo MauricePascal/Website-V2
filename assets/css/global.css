@@ -120,6 +120,7 @@ button {
     padding-left: 1rem;
     top: 5%;
     left: 92%;
+    z-index: 2;
     animation: fade_in;
     animation-duration: 2s;
 }
@@ -136,6 +137,7 @@ button {
     padding-left: 1rem;
     top: 5%;
     left: 83%;
+    z-index: 2;
     animation: fade_in;
     animation-duration: 2s;
 }
